@@ -1,0 +1,134 @@
+[
+  {
+    "code":"AUD",
+    "currencyName":"Australian Dollar"
+  },
+  {
+    "code":"BGN",
+    "currencyName":"Bulgarian Lev"
+  },
+  {
+    "code":"BRL",
+    "currencyName":"Brazilian Real"
+  },
+  {
+    "code":"CAD",
+    "currencyName":"Canadian Dollar"
+  },
+  {
+    "code":"CHF",
+    "currencyName":"Swiss Franc"
+  },
+  {
+    "code":"CNY",
+    "currencyName":"Chinese Yuan"
+  },
+  {
+    "code":"CZK",
+    "currencyName":"Czech Coruna"
+  },
+  {
+    "code":"DKK",
+    "currencyName":"Danish Kone"
+  },
+  {
+    "code":"EUR",
+    "currencyName":"Euro"
+  },
+  {
+    "code":"GBP",
+    "currencyName":"Great British Pounds"
+  },
+  {
+    "code":"HKD",
+    "currencyName":"Hong Kong Dollar"
+  },
+  {
+    "code":"HRK",
+    "currencyName":"Croatian Kuna"
+  },
+  {
+    "code":"HUF",
+    "currencyName":"Hungarian Forint"
+  },
+  {
+    "code":"IDR",
+    "currencyName":"Indonesian Rupiah"
+  },
+  {
+    "code":"ILS",
+    "currencyName":"Israeli New Shekel"
+  },
+  {
+    "code":"INR",
+    "currencyName":"Indian Rupee"
+  },
+  {
+    "code":"ISK",
+    "currencyName":"Icelandic Króna"
+  },
+  {
+    "code":"JPY",
+    "currencyName":"Japanese Yeng"
+  },
+  {
+    "code":"KRW",
+    "currencyName":"South Korean Won"
+  },
+  {
+    "code":"MXN",
+    "currencyName":"Mexican Peso"
+  },
+  {
+    "code":"MYR",
+    "currencyName":"Malaysian Ringgit"
+  },
+  {
+    "code":"NOK",
+    "currencyName":"Norwegian Krone"
+  },
+  {
+    "code":"NZD",
+    "currencyName":"New Zealand Dollar"
+  },
+  {
+    "code":"PHP",
+    "currencyName":"Philippine Piso"
+  },
+  {
+    "code":"PLN",
+    "currencyName":"Polish Zloty"
+  },
+  {
+    "code":"RON",
+    "currencyName":"Romanian Leu"
+  },
+  {
+    "code":"RUB",
+    "currencyName":"Russian Ruble"
+  },
+  {
+    "code":"SEK",
+    "currencyName":"Swedish Krona"
+  },
+  {
+    "code":"SGD",
+    "currencyName":"Singapore Dollar"
+  },
+  {
+    "code":"THB",
+    "currencyName":"Thai Baht"
+  },
+  {
+    "code":"TRY",
+    "currencyName":"Turkish Lira"
+  },
+  {
+    "code":"USD",
+    "currencyName":"US Dollar"
+  },
+  {
+    "code":"ZAR",
+    "currencyName":"South African Rand"
+  }
+]

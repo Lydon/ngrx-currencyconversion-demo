@@ -1,0 +1,10 @@
+<form>
+	<mat-form-field class="example-full-width">
+		<input type="text" [placeholder]="placeHolder" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+		<mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+			<mat-option *ngFor="let option of filteredOptions" [value]="option" (onSelectionChange)="optionSelected.emit($event)">
+				{{ option }}
+			</mat-option>
+		</mat-autocomplete>
+	</mat-form-field>
+</form>

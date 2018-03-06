@@ -1,0 +1,31 @@
+<h1 class="mat-h2">Currency Converter Module</h1>
+
+<app-auto-complete
+		[code]="code"
+		[filteredOptions]="filteredOptions"
+		[options]="options"
+		[placeHolder]="currencyOption.from"
+		[currency]="currencySelection.from"
+		(optionSelected)="onOptionSelected($event, currencyOption.from)"
+></app-auto-complete>
+
+<app-auto-complete
+		[code]="code"
+		[filteredOptions]="filteredOptions"
+		[options]="options"
+		[placeHolder]="currencyOption.to"
+		[currency]="currencySelection.to"
+		(optionSelected)="onOptionSelected($event, currencyOption.to)"
+></app-auto-complete>
+
+<mat-form-field class="example-full-width">
+	<input matInput placeholder="Amount" value="1" ng-model="amount" [(ngModel)]="amount" (ngModelChange)="onAmountChange(amount)">
+</mat-form-field>
+
+<mat-card>{{ currencyRates?.code }} | {{ currencyRates?.rate * amount | currency: currencyRates?.code : "symbol-narrow" }}</mat-card>
+
+<!--<app-currency-list-->
+		<!--[amount]="amount"-->
+		<!--[currencyRates]="currencyRates"-->
+		<!--[displayedColumns]="displayedColumns">-->
+<!--</app-currency-list>-->
